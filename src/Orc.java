@@ -13,6 +13,7 @@ public class Orc implements Attack {
         return name;
     }
 
+
     public int monsterAttack() {
         int strength = 1 + rd.nextInt(44);
         return strength;
